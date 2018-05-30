@@ -1,0 +1,35 @@
+
+/*Creates a background for animation to move accros*/
+#container {
+    width: 400px;
+    height:400px;
+    position: relative;
+    background: black;
+    border-style: inset;
+    border-color: white;
+    border-width:10px    
+}
+
+/*object that will be 'animated'*/
+#animate{
+    width : 50px;
+    height: 50px;
+    position: absolute;
+    background: green;
+}
+
+#container2 {
+    width: 400px;
+    height:400px;
+    position: relative;
+    background: grey;
+    border-style: groove;
+    border-color: black;
+}
+
+#animate2 {
+    width: 50px;
+    height: 50px;
+    position: bottom;
+    background: white;
+}
